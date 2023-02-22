@@ -24,3 +24,12 @@ body {
     /* Safari, Android, iOS */
       url("../fonts/kanit/kanit-v12-thai-regular.svg#Kanit") format("svg"); /* Legacy iOS */
 }
+
+#canvas {
+  border: 1px solid #e3e3e3;
+  border-radius: 1rem;
+  touch-action: none;
+  -ms-touch-action: none;
+  overflow: hidden;
+  background: none;
+}
